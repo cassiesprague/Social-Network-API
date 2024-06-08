@@ -1,5 +1,6 @@
 // Imports schema and model from mongoose
 const { Schema, model } = require('mongoose');
+const reactionSchema = require('./reaction')
 
 // Defines new mongoose schema for fields called thought text, created at, useranem
 const thoughtSchema = new Schema(
